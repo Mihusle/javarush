@@ -15,7 +15,6 @@ public class Solution {
         Path path1 = Paths.get("D:/test/data/firstDir");
         Path path2 = Paths.get("D:/test/data/secondDir/third");
         Path resultPath = getDiffBetweenTwoPaths(path1, path2);
-        System.out.println();
         System.out.println(resultPath);   //expected output '../secondDir/third' or '..\secondDir\third'
     }
 
